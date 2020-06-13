@@ -8,7 +8,7 @@ In one terminal, run `mongodb`
 
 ```less
 rm -rf /Users/arathyrosetony/data/db
-mkdir /Users/arathyrosetony/data/db
+mkdir -p /Users/arathyrosetony/data/db
 mongod --dbpath /Users/arathyrosetony/data/db
 ```
 
